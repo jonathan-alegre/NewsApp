@@ -1,8 +1,5 @@
-# React + Vite
+# NewsApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Este proyecto debe ejecutarse luego de que se haya inicialzado el proyecto .NET Core NewsApi para que pueda realizar los request al mismo sin problemas.
+- Descargar directamente en el disco C.
+- Una vez que se ejecuta ese proyecto tomar nota del puerto del localhost donde se inicie. Si este puerto es diferente a 7098 se deberá realizar un cambio a nivel código para que esta aplicación funcione correctamente. Para ello dirigirse al archivo C:\NewsApp\src\hooks\useNews.js y cambiar el valor de la constante "port" por el nuevo puerto. 
